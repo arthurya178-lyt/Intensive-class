@@ -10,7 +10,7 @@ int main()
 		outputAscii = inputAscii + 32;
 	else if (inputAscii >= 97 && inputAscii <= 122)	//判斷是否為大寫
 		outputAscii = inputAscii - 32;
-	else											//其他
+	else						//其他
 		outputAscii = -1;
 	if (outputAscii != -1)				//確認是否為警示值
 		cout << (char)outputAscii;		//輸出
